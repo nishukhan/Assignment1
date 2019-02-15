@@ -21,11 +21,11 @@ int main()
 
         while((temp<a[j])&&(j>=0))
         {
-            a[j+1]=a[j];    //moves element forward
+            a[j+1]=a[j];  
             j=j-1;
         }
 
-        a[j+1]=temp;    //insert element in proper place
+        a[j+1]=temp;    
     }
 
     cout<<"\nSorted list is as follows\n";
